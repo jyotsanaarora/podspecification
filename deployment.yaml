@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: test
-  namespace: test-ssa
+  namespace: test-deployment
 spec:
   selector:
     matchLabels:
