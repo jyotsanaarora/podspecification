@@ -3,6 +3,8 @@ kind: Deployment
 metadata:
   name: testdeployevents
   namespace: test-deployment
+  annotations:
+    argocd.argoproj.io/sync-options: ServerSideApply=true
 spec:
   selector:
     matchLabels:
