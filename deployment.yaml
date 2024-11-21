@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       component: tool
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
