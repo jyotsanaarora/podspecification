@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: testdeployevents
-  namespace: test-deploy
 spec:
   selector:
     matchLabels:
