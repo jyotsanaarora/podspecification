@@ -15,5 +15,5 @@ spec:
     spec:
       containers:
       - name: envar-demo-container
-        image: docker.io/library/nginx:latest
+        image: httpd:latest
 
