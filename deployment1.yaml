@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: testdeploy
-  namespace: test-custom-gitops
+  namespace: test-my-gitops
 spec:
   selector:
     matchLabels:
