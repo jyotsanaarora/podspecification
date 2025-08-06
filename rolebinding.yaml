@@ -6,7 +6,7 @@ metadata:
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: "custom-role-argocd"
+  name: "custom-argocd"
 subjects:
 - kind: ServiceAccount
   name: "custom-gitops-argocd-application-controller"
