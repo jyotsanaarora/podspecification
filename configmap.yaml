@@ -4,7 +4,7 @@ metadata:
   name: default-extensions
   labels:
     controller.devfile.io/mount-to-devworkspace: 'true'
-    controller.devfile.io/watch-configmap: 'true'
+    controller.devfile.io/watch-configmap: 'false'
   annotations:
     controller.devfile.io/mount-as: env
 data:
